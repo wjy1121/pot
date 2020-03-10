@@ -47,7 +47,7 @@
         </tr>
         <tr>
             <th>
-                고객등급
+               	 고객등급
                 <br>(A:VIP, B:일반, C:직원)
             </th>
             <td><input type="text" name="grade" size="20" value="<%= grade %>"></td>

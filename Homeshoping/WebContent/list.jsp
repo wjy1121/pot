@@ -38,7 +38,7 @@
                 city = res.getString("city");
                 
                 joindate = res.getString("joindate");
-                if(joindate.length() > 10) joindate = joindate.substring(0,10);		//joindate의 time을 제외하고 가져옴
+                if(joindate.length() > 10) joindate = joindate.substring(0,10);			//joindate의 time을 제외하고 가져옴
                 
                 switch (grade) {
                     case "A" : grade = "VIP"; break;

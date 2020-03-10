@@ -30,7 +30,6 @@
         move_url = "./list.jsp";
         break;
     }
-
     pstmt.executeQuery();
 %>
 <script>

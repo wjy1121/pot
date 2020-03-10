@@ -20,7 +20,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="./money.jsp"><b>회원매출 조회</b></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="./index.jsp"><b>홈으로.</b></a>
+                <a href="./index.jsp"><b>홈으로</b></a>
             </ul>
         </div>
     </div>

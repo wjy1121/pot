@@ -2,7 +2,7 @@
 <%@ page import="java.sql.*" %>
 <%@ include file="header.jsp" %>
 <center>
-<h2>회원매출 조회</h2>
+<h2>회원 매출 조회</h2>
 <table>
     <colgroup>
         <col width="25%">
