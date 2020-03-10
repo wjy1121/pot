@@ -6,10 +6,6 @@
     String move_url = "./";
     PreparedStatement pstmt = null;
     
-    /**
-     * index.jsp와 update.jsp에서 form을 전송할 때
-     * action을 hidden값으로 전송한다. 해당 값에 맞는 명령을 수행하도록  작성 
-     */
     switch (action) {
     case "insert" :
         sql = "INSERT INTO scott.member_tbl_02 values(scott.member_seq.nextval, ?, ?, ?, ?, ?, ?)";
@@ -34,8 +30,7 @@
         move_url = "./list.jsp";
         break;
     }
-    //out.println(sql.trim());
-    //if(true) return;
+
     pstmt.executeQuery();
 %>
 <script>

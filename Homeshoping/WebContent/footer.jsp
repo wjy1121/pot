@@ -3,7 +3,7 @@
     </div>
     <footer class="footer">
     	<center>
-        <p>copyright &copy; 2020 Wi jeong yeol all right reserved.</p>
+        <p>copyright &copy; 2020 Wi jeongyeol all right reserved.</p>
         </center>
     </footer>
 </body>

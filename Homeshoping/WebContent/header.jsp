@@ -18,7 +18,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="./list.jsp"><b>회원목록 조회/수정</b></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="./money.jsp"><b>회원매출조회</b></a>
+                <a href="./money.jsp"><b>회원매출 조회</b></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="./index.jsp"><b>홈으로.</b></a>
             </ul>

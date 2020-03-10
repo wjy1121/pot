@@ -2,7 +2,6 @@
 <%@ page import="java.sql.*" %>
 <%@ include file="header.jsp" %>
 <%
-    /* data 가져오기 */
     String custno = request.getParameter("custno");
     String custname, phone, address, joindate, grade, city;
     

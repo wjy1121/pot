@@ -37,14 +37,9 @@
                 grade = res.getString("grade");
                 city = res.getString("city");
                 
-                /** 1) joindate에서 time 값을 제외하고 가져온다.
-                 *  input  : 2018-07-29 00:00:00
-                 *  output : 2018-07-29
-                 */
                 joindate = res.getString("joindate");
-                if(joindate.length() > 10) joindate = joindate.substring(0,10);
+                if(joindate.length() > 10) joindate = joindate.substring(0,10);		//joindate의 time을 제외하고 가져옴
                 
-                /** 2) grade의 A, B, C에 대한 실제 권한을 매핑 */ 
                 switch (grade) {
                     case "A" : grade = "VIP"; break;
                     case "B" : grade = "일반"; break;

@@ -50,8 +50,8 @@
         </tr>
     </table>
     <div class="btn_group">
-        <button type="submit">등록</button>
-        <button type="button">조회</button>
+        <button type="submit">등 록</button>
+        <button type="button">조 회</button>
     </div>
 </form>
 </center>
