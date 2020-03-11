@@ -17,8 +17,9 @@
     grade = res.getString("grade");
     city = res.getString("city");
 %>
+<center>
 <h2>홈쇼핑 회원 등록</h2>
-<form action="./action.jsp" method="post">
+<form action="./updateaction.jsp" method="post">
     <input type="hidden" name="action" value="update">
     <table>
         <colgroup>
@@ -62,4 +63,5 @@
         <button type="button" onclick="history.back();">목록</button>
     </div>
 </form>
+</center>
 <%@ include file="footer.jsp" %>

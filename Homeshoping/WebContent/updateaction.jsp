@@ -33,6 +33,6 @@
     pstmt.executeQuery();
 %>
 <script>
-    alert('회원가입이 완료 되었습니다.');
+    alert('수정이 완료 되었습니다.');
     location.replace("<%=move_url%>");
 </script>
